@@ -9,11 +9,11 @@ function LanguageSwitcher() {
     <>
       {i18n.language === "ar" ? (
         <Nav.Link onClick={() => i18n.changeLanguage("en")}>
-          <FiGlobe className="negative-margin" /> <span>العربية</span>
+          <FiGlobe className="negative-margin" /> <span>English</span>
         </Nav.Link>
       ) : (
         <Nav.Link onClick={() => i18n.changeLanguage("ar")}>
-          <FiGlobe className="negative-margin" /> <span>English</span>
+          <FiGlobe className="negative-margin" /> <span>العربية</span>
         </Nav.Link>
       )}
     </>

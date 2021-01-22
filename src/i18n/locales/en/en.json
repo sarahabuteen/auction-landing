@@ -4,5 +4,50 @@
     "features": "Features",
     "registration": "Registration",
     "contactUs": "Contact Us"
+  },
+  "hero": {
+    "heroTitle": "Online food ordering app based on biddings",
+    "heroDesc": "After registration you can browse offers from different shops with variant categories. Make your bid and place your order if you are the lucky winner!",
+    "getAppBtn": "Get the app now",
+    "registerBtn": "Register now"
+  },
+  "features": {
+    "featuresTitle": "Our Special Features For",
+    "featureI": "Home Delivery",
+    "featureIDesc": "Receive your order at your doorstep, and track the driver all the way.",
+    "featureII": "Take Away",
+    "featureIIDesc": "You can choose to pick-up the order yourself if you're heading out!",
+    "featureIII": "Online Payment",
+    "featureIIIDesc": "You can pay online for contact-less deliveries with no extra charges.",
+    "featureIV": "Cash On Delivery",
+    "featureIVDesc": "Pay for order when you receive it if you prefer the cash payments."
+  },
+  "about": {
+    "aboutTitle": "About Auction",
+    "descriptionI": "Auction is a new shopping service that relies on the bidding concept which allows the shops to showcase specific products of their choice and offer it for bidding.",
+    "descriptionII": "Customers can find the offers nearby their locations and submit bids which if won; they can place an order with their preferred payment and delivery options. So the product can be delivered to your doorstep by our drivers or you can even pick it up yourself!",
+    "downloadBtn": "Download app"
+  },
+  "customerFeatures": {
+    "customerTitle": "Customer App Features",
+    "features": [
+      "Largest shop list for customers to place a bid on their favourite food.",
+      "Track their order.",
+      "Easy payment methods.",
+      "Home delivery, cash on delivery available.",
+      "Opportunity to become a registered driver.",
+      "24/7 customer support."
+    ]
+  },
+  "driverFeatures": {
+    "driverTitle": "Driver App Features",
+    "features": [
+      "Driver has the ability to approve or rejet any order from his order list.",
+      "Able to view order details.",
+      "At a time he'll get one order to deliver.",
+      "Able to receive notifications for orders related events.",
+      "Driver can report a problem.",
+      "Able to see his Total transaction history."
+    ]
   }
 }    

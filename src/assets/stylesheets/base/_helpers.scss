@@ -3,5 +3,11 @@
 // -----------------------------------------------------------------------------
 
 .negative-margin {
+  margin-top: -1px;
+}
+
+body[dir="rtl"] {
+  .negative-margin {
     margin-top: -3px;
+  }
 }
