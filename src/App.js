@@ -428,7 +428,7 @@ const App = () => {
           <Row>
             <Col md="12">
               <p className="mb-0 text-white text-center">
-                Copyright &copy; Auction. All Rights Reserved.
+                Copyright &copy; Auction {(new Date().getFullYear())}. All Rights Reserved.
               </p>
             </Col>
           </Row>
