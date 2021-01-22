@@ -3,9 +3,13 @@
  */
 
  body {
-     font-family: $default-font-family;
+  font-family: $default-font-family;
  }
 
  h1, h2, h3, h4, h5, h6 {
-     font-family: $medium-font-family;
+  font-family: $medium-font-family;
  }
+
+body[dir="rtl"] {
+  text-align: right;
+}

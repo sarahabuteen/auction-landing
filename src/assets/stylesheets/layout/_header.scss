@@ -26,6 +26,27 @@
         color: $black;
         transition: color ease-in-out 0.3s;
       }
+      &:focus {
+        color: $white;
+      }
+    }
+  }
+}
+
+body[dir="rtl"] {
+  .navbar {
+    .ml-auto, .mx-auto {
+      margin-right: auto !important;
+      margin-left: unset !important;
+    }
+    .navbar-nav {
+      .nav-link {
+        padding-right: unset;
+        padding-left: 2.2rem;
+        &:last-child {
+          padding-left: 0px;
+        }
+      }
     }
   }
 }
