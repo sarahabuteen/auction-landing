@@ -1,0 +1,28 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the form component.
+// -----------------------------------------------------------------------------
+
+.form-control:focus,
+.form-control:focus,
+.form-control:hover {
+  outline: 0;
+  box-shadow: none;
+}
+
+form {
+  .form-group {
+    input.form-control, textarea.form-control, select.form-control{
+      border: 2px solid $gray;
+      background-color: transparent;
+      &:focus, &:hover {
+        border: 2px solid $purple;
+      }
+    }
+    input.form-control {
+      height: 45px;
+    }
+    .form-label {
+      margin-bottom: 0px;
+    }
+  }
+}

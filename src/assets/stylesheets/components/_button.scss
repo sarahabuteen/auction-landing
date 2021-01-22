@@ -1,0 +1,47 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus,
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus,
+[role="button"]:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.gradient-btn {
+  background-image: linear-gradient(to right, $gradientFirstColor, $gradientSecondColor);
+  border: none;
+  height: 45px;
+  color: $white;
+  line-height: 2.3;
+  &:hover, &:focus {
+    background-image: none;
+    background-color: $white;
+    border: 1px solid $purple;
+    color: $purple;
+  }
+}
+
+.outline-btn {
+  background-color: $white;
+  border: 1px solid $purple;
+  height: 45px;
+  color: $purple;
+  line-height: 2.2;
+  &:hover, &:focus {
+    background-image: linear-gradient(to right, $gradientFirstColor, $gradientSecondColor);
+    border: 1px solid transparent;
+    color: $white;
+  }
+}

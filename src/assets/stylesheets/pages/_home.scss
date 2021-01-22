@@ -1,0 +1,218 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+.hero-section {
+    padding: 100px 0;
+    h1 {
+        font-size: 48px;
+        margin-bottom: 2rem;
+    }
+    p {
+        margin-bottom: 2rem;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+.features-section {
+    background-color: $silver;
+    padding: 100px 0;
+    .feature-box {
+        margin-top: 30px;
+        .icon {
+            height: 70px;
+            width: 70px;
+            background-color: $pink;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            img {
+                height: 40px;
+                width: 40px;
+                object-fit: contain;
+            }
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+}
+
+.about-section, .customer-section, .driver-section {
+    padding: 100px 0;
+    img {
+        width: 100%;
+    }
+}
+
+.customer-section {
+    background-color: $silver;
+}
+
+.customer-section, .driver-section {
+    .features-list {
+        p {
+            img {
+                height: 22px;
+                width: 22px;
+                object-fit: contain;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.register-section {
+    padding: 100px 0;
+    background-color: $silver;
+    .nav-tabs {
+        .nav-link {
+            width: calc(100% / 2);
+            border: 1px solid $purple;
+            color: $purple;
+            text-align: center;
+            padding: 0.8rem 1rem;
+            &:first-child {
+                border-top-right-radius: 0px;
+                border-top-left-radius: 12px;
+            }
+            &:last-child {
+                border-top-left-radius: 0px;
+                border-top-right-radius: 12px;
+                border-left: none;
+            }
+            &.active {
+                background-color: $purple;
+                color: $white;
+            }
+        }
+    }
+    .tab-content {
+        padding: 20px;
+        border: 1px solid $purple;
+        border-top: none;
+        border-radius: 0 0 12px 12px;
+    }    
+}
+
+.download-section {
+    background-image: linear-gradient(to right, $gradientFirstColor, $gradientSecondColor);
+    img {
+        width: 100%;
+    }
+}
+
+.contact-section {
+    padding: 100px 0;
+    img {
+        width: 100%;
+    }    
+}
+
+footer {
+    background-color: $silver;
+    min-height: 160px;
+    display: flex;
+    align-items: center;
+    img {
+        width: 100%;
+        object-fit: contain;
+    }
+    .links-list {
+        font-size: 18px;
+        .list-inline-item:not(:last-child) {
+            margin-right: 40px;
+        }
+    }
+    .social-links {
+        li {
+            width: 30px;
+            height: 30px;
+            border: 1px solid $black;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            svg {
+                height: 15px;
+                width: 15px;
+            }
+        }
+    }
+}
+
+.copyright {
+    background-color: $black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .hero-section {
+        padding: 50px 0;
+        h1 {
+            font-size: 40px;
+            margin-bottom: 1rem;
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+        .btn {
+            margin-bottom: 15px;
+        }
+        img {
+            margin-top: 15px;
+        }
+    }
+    .features-section, .about-section, .customer-section, .driver-section, .register-section, .contact-section {
+        padding: 50px 0;
+    }
+    .register-section {
+        .nav-tabs {
+            .nav-link {
+                align-items: center;
+                display: inline-flex;
+                justify-content: center;
+            }
+        }
+    }
+    .download-section {
+        padding-top: 50px;
+        .store-btn {
+            height: 90px;
+            object-fit: contain;
+            margin-bottom: 15px;
+        }
+    }
+    .contact-section {
+        img {
+            margin-bottom: 20px;
+        }
+    }
+    footer {
+        padding: 20px 0;
+        img {
+            height: 50px;
+        }
+        .links-list {
+            margin-top: 15px;
+            li {
+                margin-right: 25px;
+                &:last-child {
+                    margin-right: 0px;
+                }
+            }
+        }
+        .justify-content-end {
+            justify-content: center !important;
+        }
+        .social-links {
+            margin-top: 10px;
+        }
+    }
+}  

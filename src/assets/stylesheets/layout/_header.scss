@@ -1,0 +1,31 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+.navbar {
+  background-image: linear-gradient(
+    to right,
+    $gradientFirstColor,
+    $gradientSecondColor
+  );
+  min-height: 90px;
+  .navbar-brand {
+    img {
+      height: 50px;
+      object-fit: contain;
+    }
+  }
+  .navbar-nav {
+    .nav-link {
+      color: $white;
+      padding-right: 2.2rem;
+      &:last-child {
+        padding-right: 0rem;
+      }
+      &:hover {
+        color: $black;
+        transition: color ease-in-out 0.3s;
+      }
+    }
+  }
+}

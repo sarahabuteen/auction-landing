@@ -1,0 +1,19 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+/// @type List
+$default-font-family: 'NeoSansArabic' !default;
+$medium-font-family: 'NeoSansArabicMedium' !default;
+
+/// Colors
+/// @type Color
+$purple: #881e61 !default;
+$pink: #f1dbe9 !default;
+$white: #ffffff !default;
+$black: #1e0013 !default;
+$silver: #f8f7f7 !default;
+$gray: #d1d1d1 !default;
+$gradientFirstColor: #771956 !default;
+$gradientSecondColor: #b93088 !default;
