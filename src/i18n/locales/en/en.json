@@ -3,7 +3,8 @@
     "about": "About",
     "features": "Features",
     "registration": "Registration",
-    "contactUs": "Contact Us"
+    "contactUs": "Contact Us",
+    "copyright": "All Rights Reserved"
   },
   "hero": {
     "heroTitle": "Online food ordering app based on biddings",
@@ -49,5 +50,46 @@
       "Driver can report a problem.",
       "Able to see his Total transaction history."
     ]
+  },
+  "registration": {
+    "registrationTitle": "Register Now as Driver or Shop Owner",
+    "driverTab": "Register as Driver",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "countryCode": "Country Code",
+    "phoneNo":"Phone Number",
+    "nationalIdNumber": "National ID Number",
+    "vehicleLicense": "Vehicle License Photo (Back & Front)",
+    "email": "Email",
+    "gender": "Gender",
+    "Male":"Male",
+    "Female":"Female",
+    "Others":"Others",
+    "nationalIdPhoto": "National ID Photo (Back & Front)",
+    "vehiclePhotos": "Vehicle Photos",
+    "personalPhoto":"personal Photo",
+    "shopOwnerTab": "Register as Shop Owner",
+    "shopOwnerName": "Shop Owner Name",
+    "ownerCountryCode": "Owner Country Code",
+    "ownerPhoneNumber": "Owner Phone Number",
+    "shopCountryCode": "Shop Country Code",
+    "shopPhoneNumber": "Shop Phone Number",
+    "ownerEmail": "Owner Email",
+    "shopName": "Shop Name",
+    "numberOfBranches": "Number of Branches",
+    "shopEmail": "Shop Email",
+    "submit": "Submit"
+  },
+  "download": {
+    "downnloadTitle": "Download our Auction app",
+    "description": "View recent offers and submit bids over them, place your order and track it until delivered to your doorstep."
+  },
+  "contactUs": {
+    "contactTitle": "Contact Us",
+    "contactDescription": "Do you feel like contacting us or want to become a driver of Auction? You can send us a message and we’ll get back to you as soon as possible!",
+    "fullName": "Full Name",
+    "yourEmail": "Your Email",
+    "writeMessage": "Write Your Message...",
+    "sendMessageBtn": "Send your message"
   }
 }    

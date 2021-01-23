@@ -1,9 +1,13 @@
 import React from "react";
 import { Row, Col, Container, Form } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 import ContactUs from "../../assets/images/contact-us.svg";
 
-const ContactSection = () => (
-  <>
+const ContactSection = () => {
+  const { t } = useTranslation();
+
+  return (
+    <>
     <section className="contact-section" id="contactUs">
       <Container>
         <Row>
@@ -13,11 +17,9 @@ const ContactSection = () => (
           <Col md="6" className="d-flex flex-column justify-content-center">
             <Row>
               <Col md="12">
-                <h1 className="mb-2">Contact Us</h1>
+                <h1 className="mb-2">{t("contactUs.contactTitle")}</h1>
                 <p className="mb-3">
-                  Do you feel like contacting us or want to become a driver of
-                  Auction? You can send us a message and we’ll getback to you as
-                  soon as Possible!
+                {t("contactUs.contactDescription")}
                 </p>
               </Col>
             </Row>
@@ -25,20 +27,20 @@ const ContactSection = () => (
               <Col md="12">
                 <Form>
                   <Form.Group>
-                    <Form.Control type="text" placeholder="Full Name" />
+                    <Form.Control type="text" placeholder={t("contactUs.fullName")} />
                   </Form.Group>
                   <Form.Group>
-                    <Form.Control type="email" placeholder="Your Email" />
+                    <Form.Control type="email" placeholder={t("contactUs.yourEmail")} />
                   </Form.Group>
                   <Form.Group>
                     <Form.Control
                       as="textarea"
                       rows={4}
-                      placeholder="Write Your Message..."
+                      placeholder={t("contactUs.writeMessage")}
                     />
                   </Form.Group>
                   <button className="btn gradient-btn text-uppercase w-100">
-                    Send your message
+                  {t("contactUs.sendMessageBtn")}
                   </button>
                 </Form>
               </Col>
@@ -48,6 +50,8 @@ const ContactSection = () => (
       </Container>
     </section>
   </>
-);
+
+  )
+}
 
 export default ContactSection;

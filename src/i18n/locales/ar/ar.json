@@ -3,7 +3,8 @@
     "about": "معلومات عنا",
     "features": "مميزاتنا",
     "registration": "التسجيل",
-    "contactUs": "تواصل معنا"
+    "contactUs": "تواصل معنا",
+    "copyright": "جميع الحقوق محفوظة"
   },
   "hero": {
     "heroTitle": "اطلب طعامك عن طريق تطبيق يعتمد على المزادات",
@@ -49,5 +50,46 @@
       "سائقنا يمكنه الإبلاغ عن أي مشكلة توجه.",
       "سائقنا يمكنه عرض قائمة معاملاته."
     ]
+  },
+  "registration": {
+    "registrationTitle": "سجل الآن كسائق أو مالك متجر",
+    "driverTab": "التسجيل كسائق",
+    "firstName": "الاسم الأول",
+    "lastName": "الاسم الأخير",
+    "countryCode": "كود البلد",
+    "phoneNo":"رقم الهاتف",
+    "nationalIdNumber": "رقم الهوية",
+    "vehicleLicense": "صور رخصة المركبة (من الأمام والخلف)",
+    "email": "البريد الإلكتروني",
+    "gender": "الجنس",
+    "Male":"ذكر",
+    "Female":"أنثى",
+    "Others":"آخر",
+    "nationalIdPhoto": "صور الهوية (من الأمام والخلف)",
+    "vehiclePhotos": "صور المركبة",
+    "personalPhoto":"الصورة الشخصية",
+    "shopOwnerTab": "التسجيل كمالك متجر",
+    "shopOwnerName": "اسم صاحب المتجر",
+    "ownerCountryCode": "كود بلد صاحب المتجر",
+    "ownerPhoneNumber": "رقم هاتف صاحب المتجر",
+    "shopCountryCode": "كود بلد المتجر",
+    "shopPhoneNumber": "رقم هاتف المتجر",
+    "ownerEmail": "البريد الإلكتروني الخاص بصاحب المتجر",
+    "shopName": "اسم المتجر",
+    "numberOfBranches": "عدد فروع المتجر",
+    "shopEmail": "البريد الإلكتروني الخاص بالمتجر",
+    "submit": "تسجيل"
+  },
+  "download": {
+    "downnloadTitle": "حمّل تطبيق أكشن الآن",
+    "description": "شاهد أحدث العروض وادخل المزاد, اطلب وتتبع طلبك إلي أن يصل إلي باب منزلك."
+  },
+  "contactUs": {
+    "contactTitle": "تواصل معنا",
+    "contactDescription": "هل ترغب في التواصل معنا أو تريد أن تصبح سائق أكشن؟ يمكنك أن ترسل لنا رسالة وسوف نتواصل معك في أقرب وقت ممكن",
+    "fullName": "الاسم بالكامل",
+    "yourEmail": "بريدك الإلكتروني",
+    "writeMessage": "اكتب رسالتك...",
+    "sendMessageBtn": "ارسال"
   }
 }    
